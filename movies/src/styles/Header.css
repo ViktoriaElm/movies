@@ -1,0 +1,17 @@
+.Header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 97%;
+}
+
+.Header-btn {
+  height: 50%;
+  width: 100px;
+  background: none;
+  font-size: calc(10px + 1vmin);
+  font-weight: 400;
+  color: #f6f7f9;
+  border: none;
+}

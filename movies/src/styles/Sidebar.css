@@ -1,0 +1,84 @@
+.Sidebar-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 15%;
+    min-width: 280px;
+    border: 1px solid #f6f7f9;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #f6f7f9;
+    top: 12%;
+    left: 1%;
+}
+
+.Sidebar-title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Sidebar-title {
+    font-size: calc(9px + 1vmin);
+    font-weight: normal;
+}
+
+.Sidebar-span {
+    font-size: calc(4px + 1vmin);
+    color: #c4c4c4;
+    margin-bottom: 5px;
+}
+
+select {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f6f7f9;
+    color: #f6f7f9;
+    padding: 10px 0px;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+option {
+    color: black;
+}
+
+.genre-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.element {
+    overflow-y: scroll;
+    height: 110px;
+}
+
+.element::-webkit-scrollbar {
+    width: 10px;
+    background-color: #949494;
+    border-radius: 50px;
+}
+
+.element::-webkit-scrollbar-thumb {
+    background-color: #343a46;
+    border: 1px solid #a5a5a5;
+    border-radius: 50px;
+    height: 30%;
+}
+
+.checkbox-box {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+.Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
